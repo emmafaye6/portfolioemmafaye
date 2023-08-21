@@ -26,7 +26,7 @@ function Footer() {
       </section>
       <section className="footer__textcontainer">
         <a
-          href="https://github.com/emmafaye6/portfolio-emma"
+          href="https://github.com/emmafaye6/portfolioemmafaye"
           className="footer__link"
           target="_blank"
         >
