@@ -1,0 +1,97 @@
+/* TYPOGRAPHY */
+
+.contact__title {
+  font-family: "IBM Plex Mono Medium";
+  font-size: 0.9rem;
+  color: var(--color-blue);
+  padding: 0 0 0.5rem 0;
+  border-bottom: 1px dashed var(--color-dark-pink);
+  width: 70%;
+}
+
+body.dark .contact__title,
+body.dark .contact__link {
+  color: var(--color-cream);
+}
+
+.contact__link {
+  font-family: "IBM Plex Regular";
+  font-size: 0.77rem;
+  color: var(--color-medium-blue);
+}
+
+.contact__link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* CONTACT STYLING */
+
+.contact {
+  width: 85%;
+  padding: 2.7rem 3rem;
+  margin-inline: auto;
+  margin-block: 3.4rem 5rem;
+  background-color: var(--color-cream);
+}
+
+body.dark .contact {
+  background-color: var(--color-blue);
+}
+
+.contact__icon {
+  width: 5%;
+}
+
+.contact__texticoncontainer {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  margin: 1.1rem 0 2rem 0;
+}
+
+.contact__squiggly {
+  position: absolute;
+  width: 16%;
+  max-width: 6.5rem;
+  left: 75%;
+}
+
+@media screen and (min-width: 1024px) {
+  /* TYPOGRAPHY */
+
+  .contact__title {
+    font-size: 1.25rem;
+  }
+
+  .contact__link {
+    font-size: 1.1rem;
+  }
+
+  /* CONTACT STYLING */
+
+  .contact {
+    padding: 4.8rem;
+    margin-block: 5rem 7rem;
+  }
+
+  .contact__container {
+    display: flex;
+  }
+
+  .contact__mail,
+  .contact__linkedin {
+    width: 40%;
+    margin-top: 1rem;
+  }
+
+  .contact__texticoncontainer {
+    margin-top: 1.5rem;
+  }
+
+  .contact__squiggly {
+    max-width: 10rem;
+    margin-top: 7rem;
+    left: 83%;
+  }
+}

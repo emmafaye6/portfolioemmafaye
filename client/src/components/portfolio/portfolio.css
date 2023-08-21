@@ -1,0 +1,89 @@
+/* TYPOGRAPHY */
+
+.portfolio__title {
+  font-family: "IBM Plex Mono Medium";
+  font-size: 0.9rem;
+  text-align: center;
+  border-bottom: 1px dashed var(--color-dark-pink);
+  padding: 0 0 0.7rem 0;
+  width: 70%;
+  color: var(--color-medium-blue);
+}
+
+body.dark .portfolio__title,
+body.dark .portfolio__description {
+  color: var(--color-cream);
+}
+
+.portfolio__description {
+  font-family: "IBM Plex Regular";
+  font-size: 0.75rem;
+  color: var(--color-medium-blue);
+  text-align: center;
+}
+
+/* PORTFOLIO COMPONENT STYLING */
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.portfolio__metasquigglies {
+  position: absolute;
+  margin: 9rem auto;
+  z-index: 0;
+  width: 95%;
+}
+
+.portfolio__card {
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3rem;
+  margin: 1rem 0 3rem;
+  gap: 1.4rem;
+}
+
+.portfolio__image {
+  width: 80%;
+  min-height: 12rem;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  padding: 1rem;
+  border: 1px solid var(--color-pink);
+  border-radius: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  /* PORTFOLIO COMPONENT STYLING */
+
+  .portfolio {
+    margin-block: 5rem;
+  }
+
+  .portfolio__card {
+    margin-top: 2rem;
+    gap: 2.5rem;
+  }
+
+  .portfolio__image {
+    width: 48%;
+    max-width: 35rem;
+    min-height: 25rem;
+  }
+
+  .portfolio__metasquigglies {
+    margin-top: 16rem;
+    max-height: 10rem;
+  }
+
+  .portfolio__description {
+    max-width: 50rem;
+    padding-inline: 3rem;
+  }
+}

@@ -1,0 +1,83 @@
+/* TYPOGRAPHY */
+
+.error__title {
+  color: var(--color-dark-pink);
+  font-family: "noto_sanscondensed_medium";
+  text-transform: uppercase;
+  font-size: 3.93rem;
+  z-index: 5;
+}
+
+.error__text,
+.error__link {
+  font-family: "IBM Plex Regular";
+  font-size: 1.1rem;
+  color: var(--color-medium-blue);
+  width: 80%;
+  text-align: center;
+}
+
+.error__link {
+  text-decoration: underline;
+}
+
+/* GENERAL STYLING */
+
+.footersquiggly1,
+.footersquiggly2 {
+  position: absolute;
+  z-index: 0;
+}
+
+.footersquiggly1 {
+  margin-left: -17rem;
+  top: 5.5rem;
+  width: 4.2rem;
+}
+
+.footersquiggly2 {
+  margin-left: 15rem;
+  top: 14.9rem;
+  width: 4.6rem;
+}
+
+.error {
+  position: relative;
+  padding: 6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+  .error__title {
+    font-size: 5.93rem;
+  }
+  .error__text,
+  .error__link {
+    font-size: 1.875rem;
+    width: 50%;
+    text-align: center;
+  }
+
+  .error {
+    padding: 10% 5rem;
+    gap: 1.88rem;
+  }
+
+  .footersquiggly1 {
+    margin-left: -38rem;
+    top: 5.5rem;
+    width: 17rem;
+  }
+
+  .footersquiggly2 {
+    margin-left: 39rem;
+    top: 17rem;
+    width: 17.6rem;
+  }
+}

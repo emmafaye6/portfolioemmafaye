@@ -1,0 +1,70 @@
+/* TYPOGRAPHY */
+
+.about__text,
+.about__title {
+  color: var(--color-medium-blue);
+}
+
+body.dark .about__text,
+body.dark .about__title {
+  color: var(--color-cream);
+}
+
+.--medium {
+  font-family: "IBM Plex Mono Medium";
+}
+
+.about__title {
+  font-family: "IBM Plex Mono Medium";
+  font-size: 0.94rem;
+  padding: 0.5rem 0;
+}
+
+.about__text {
+  font-family: "IBM Plex Regular";
+  font-size: 0.72rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+/* ABOUT STYLING */
+
+.about {
+  width: 80%;
+  margin-inline: auto;
+  margin-block: 4rem 5rem;
+  background-color: var(--color-cream);
+  background: url("../../assets/images/squigglies.svg") no-repeat;
+  background-size: 20%;
+  background-position: bottom right;
+  object-fit: contain;
+  padding: 2.5rem 2.5rem;
+  box-shadow: 17px 27px 0px 0px var(--color-pink);
+}
+
+body.dark .about {
+  background: url("../../assets/images/darksquigglies.svg") no-repeat;
+  background-size: 20%;
+  background-position: bottom right;
+}
+
+body.dark .about {
+  background-color: var(--color-blue);
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    width: 75%;
+    padding: 3.3rem 6rem;
+    margin: 7.4rem auto;
+    background-size: 18%;
+  }
+
+  .about__title {
+    font-size: 1.3rem;
+  }
+
+  .about__text {
+    font-size: calc(0.4rem + 0.5vw);
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/projects/:id", "destination": "/index.html" },
+    { "source": "/projects/portfolio", "destination": "/index.html" },
+    { "source": "/404", "destination": "/index.html" },
+    { "source": "/:all*(.*)", "destination": "/index.html" }
+  ]
+}

@@ -1,0 +1,77 @@
+/* TYPOGRAPHY */
+
+.footer__link,
+.footer__text {
+  color: var(--color-medium-blue);
+  font-family: "IBM Plex Regular";
+}
+
+body.dark .footer__link,
+body.dark .footer__text {
+  color: var(--color-cream);
+}
+
+.footer__text {
+  font-size: 0.81rem;
+}
+
+.footer__link {
+  font-size: 0.93rem;
+  text-decoration: underline;
+}
+
+/* FOOTER STYLING */
+
+.footer {
+  width: 100%;
+  height: 11rem;
+  padding: 1.5rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer__iconcontainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.footer__textcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.3rem;
+  gap: 0.5rem;
+}
+
+.footer__icon {
+  width: 6%;
+  max-width: 3rem;
+  min-width: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  /* TYPOGRAPHY */
+
+  .footer__text,
+  .footer__link {
+    font-size: 1.125rem;
+  }
+
+  /* FOOTER STYLING */
+  .footer {
+    flex-direction: column-reverse;
+    padding: 1.5rem 4rem;
+  }
+
+  .footer__icon {
+    max-width: 1.75rem;
+  }
+
+  .footer__textcontainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
