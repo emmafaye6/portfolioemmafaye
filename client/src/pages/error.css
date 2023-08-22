@@ -8,6 +8,11 @@
   z-index: 5;
 }
 
+body.dark .error__text,
+body.dark .error__link {
+  color: var(--color-pink);
+}
+
 .error__text,
 .error__link {
   font-family: "IBM Plex Regular";
@@ -15,6 +20,11 @@
   color: var(--color-medium-blue);
   width: 80%;
   text-align: center;
+}
+
+body.dark .error__text,
+body.dark .error__link {
+  color: var(--color-cream);
 }
 
 .error__link {
