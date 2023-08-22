@@ -21,24 +21,3 @@ This project showcases my journey in creating a dynamic and responsive personal 
 
 - **Contact and Connect:** Connect with me through the provided contact information and social media links. This section encourages networking and collaboration opportunities.
 
-## Installation and Usage
-
-**Clone Repository:** Start by cloning this repository to your local machine using the following command:
-
-   ```bash
-   git clone https://github.com/emmafaye6/portfolio-emma.git
-```
-
-**Frontend Setup:** Navigate to the client directory and install the required dependencies:
-```bash
-cd client
-npm install
-```
-Start the frontend development server:
-```bash
-npm start
-```
-The portfolio will be accessible at http://localhost:3000.
-
-**Backend Setup:** Don't worry about the backend, it's being hosted somewhere. 🚀
-
