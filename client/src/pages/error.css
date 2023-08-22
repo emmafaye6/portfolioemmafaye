@@ -8,8 +8,7 @@
   z-index: 5;
 }
 
-body.dark .error__text,
-body.dark .error__link {
+body.dark .error__title {
   color: var(--color-pink);
 }
 
