@@ -7,7 +7,6 @@ This project showcases my journey in creating a dynamic and responsive personal 
 
 ## Features
 
-- **Please Note:** The backend is hosted on a free plan version of Render. Consequently, there might be a slight delay in loading the projects. Don't worry, though—enjoy the engaging loader animation while the content loads!
   
 - **Frontend:** The frontend of this portfolio is developed using React, a popular JavaScript library for building user interfaces. It provides a smooth and intuitive browsing experience, allowing visitors to explore my projects, skills, and experience effortlessly.
 
