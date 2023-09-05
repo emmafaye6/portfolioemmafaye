@@ -3,6 +3,7 @@ import darkcomputer from "../../assets/images/darkcomputer.svg";
 import "./herobanner.css";
 import Button from "../layout/button";
 import { useTheme } from "../../contexts/themeContext";
+import cv from "../../assets/cv.pdf";
 
 function HeroBanner() {
   const { theme } = useTheme();
@@ -23,8 +24,8 @@ function HeroBanner() {
             I like to design and build front-end things and make them as pretty,
             fast, and accessible as possible! ✨
           </p>
-          <Button src="#contact" className="herobanner__button --buttontext">
-            contact me!
+          <Button src={cv} className="herobanner__button --buttontext">
+            check out my resume
           </Button>
         </section>
       </div>
