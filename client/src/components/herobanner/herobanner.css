@@ -57,7 +57,7 @@ body.dark .herobanner__title {
 .herobanner__button {
   border: 2px solid var(--color-pink);
   width: 10rem;
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 7rem;
   white-space: nowrap;
   margin: 2.5rem 0 2.2rem 0;
   display: flex;
@@ -122,5 +122,6 @@ body.dark .herobanner__title {
   .herobanner__button {
     width: 20%;
     min-width: 11.88rem;
+    padding: 0.6rem 8rem;
   }
 }
