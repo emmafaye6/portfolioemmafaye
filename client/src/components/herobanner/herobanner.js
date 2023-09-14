@@ -19,7 +19,9 @@ function HeroBanner() {
             alt="computer with a rocket coming off it"
             aria-hidden="true"
           />
-          <p className="herobanner__big">I'm a junior dev based in France.</p>
+          <p className="herobanner__big">
+            I'm a front-end dev based in France.
+          </p>
           <p className="herobanner__big">
             I like to design and build front-end things and make them as pretty,
             fast, and accessible as possible! ✨
